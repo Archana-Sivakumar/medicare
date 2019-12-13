@@ -1,0 +1,107 @@
+<nav class="navbar navbar-expand-lg navbar-dark justify-content-right">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+      
+        <a class="navbar-brand" href="#" id="movie-style"><h2><i class="material-icons" id="navbar-logo">local_hospital</i> MEDICARE </h2></a>
+      </li>
+    </ul>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+
+      <li> <button type="button" class="btn btn-info btn-lg" (click)="back()"><i class="material-icons">home</i>HOME</button></li>
+      <li>&nbsp;&nbsp;</li>     		
+      <li><button class="btn btn-info btn-lg" (click)="logout()"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</button></li>
+          
+      </ul>
+    </div>		
+      
+</nav>
+  
+<div class="container" id="container-login">
+        <div class="form-row">
+            <div class="form-group col-lg-3 col-md-12 col-sm-12"></div>
+            <div class="form-group col-lg-5 col-md-12 col-sm-12 border">
+                <h2 class="card-title mb-4 mb-3" align="center" id="signup-status">REPORT</h2>
+               
+                <form [formGroup]="testResultForm">
+                    <div class="form-row">
+                        <div class="form-group col col-lg-6 col-md-12 col-sm-12 col-12">
+                            <label for="patientName" id="white-status">Patient Name</label>
+                            <input type="text" id="patientName" name="patientName" class="form-control mb-2" placeholder="Enter Patient Name"
+                                formControlName="patientName" disabled="disabled">
+                            
+                            
+                        </div>
+                        <div class="form-group col col-lg-6 col-md-12 col-sm-12 col-12">
+                                <label for="doctorName" id="white-status">Doctor Name</label>
+                                <input type="text" id="doctorName" name="doctorName" class="form-control mb-2" placeholder="Enter Doctor Name"
+                                    formControlName="doctorName" disabled="disabled">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col col-lg-6 col-md-12 col-sm-12 col-12">
+                            <label for="mediserviceName" id="white-status">MediService Name</label>
+                            <input type="text" id="mediserviceName" name="mediserviceName" class="form-control mb-2" placeholder="Enter mediservice Name"
+                                formControlName="mediserviceName" disabled="disabled">           
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col col-lg-6 col-md-12 col-sm-12 col-12">
+                                <label for="mediserviceAmount" id="white-status">MediService Amount</label>
+                                <input type="text" id="mediserviceAmount" name="mediserviceAmount" class="form-control mb-2" placeholder="Enter mediserviceAmount"
+                                    formControlName="mediserviceAmount" disabled="disabled">           
+                        </div>
+                        <div class="form-group col col-lg-6 col-md-12 col-sm-12 col-12">
+                                <label for="agentCommission" id="white-status">Agent Commission</label>
+                                <input type="number" id="agentCommission" name="agentCommission" class="form-control mb-2" placeholder="Enter agentCommission"
+                                    formControlName="agentCommission" disabled="disabled">           
+                        </div>
+                    </div>
+                    
+                  
+                                 
+                    <div class="form-row">
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="testName1" id="white-status">Test Name</label>
+                            <input type="text" id="testName1" name="testName1" class="form-control mb-2" placeholder="Enter testName"
+                                formControlName="testName1" disabled="disabled">           
+                        </div>
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="normalRange1" id="white-status">Normal Range</label>
+                            <input type="text" id="normalRange1" name="normalRange1" class="form-control mb-2" placeholder="Enter normalRange"
+                                formControlName="normalRange1" disabled="disabled">           
+                        </div>
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="actualRange1" id="white-status">Actual Range</label>
+                            <input type="text" id="actualRange1" name="actualRange1" class="form-control mb-2" placeholder="Enter actualRange"
+                                formControlName="actualRange1" disabled="disabled">           
+                        </div> 
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="testName2" id="white-status">Test Name</label>
+                            <input type="text" id="testName2" name="testName2" class="form-control mb-2" placeholder="Enter testName"
+                                formControlName="testName2" disabled="disabled">           
+                        </div>
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="normalRange2" id="white-status">Normal Range</label>
+                            <input type="text" id="normalRange2" name="normalRange2" class="form-control mb-2" placeholder="Enter normalRange"
+                                formControlName="normalRange2" disabled="disabled">           
+                        </div>
+                        <div class="form-group col col-lg-4 col-md-12 col-sm-12 col-12">
+                            <label for="actualRange2" id="white-status">Actual Range</label>
+                                <input type="text" id="actualRange2" name="actualRange2" class="form-control mb-2" placeholder="Enter actualRange"
+                                    formControlName="actualRange2" disabled="disabled">           
+                        </div>           
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  
+  
+

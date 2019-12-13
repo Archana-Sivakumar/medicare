@@ -1,0 +1,204 @@
+/* You can add global styles to this file, and also import other style files */
+#red-status {
+	color: red;
+	font-size : 16px;
+}
+#white-status {
+	color :black;
+}
+/* You can add global styles to this file, and also import other style files */
+/* include stylesheet for truYum */
+/* .navbar {
+	background-color: rgba(0, 0, 0,0.3 );
+	font-family: cursive;
+} */
+
+#navbar-logo{
+	font-size: 45px;
+}
+.truyum-icon {
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.jumbotron h1{
+    color: #FFFFFF;
+}
+.bg-cover {
+        background-image: url('https://images.unsplash.com/photo-1467453678174-768ec283a940?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+}
+
+.success-jumbotron{
+	
+	color: #267346;
+    background-color:#c6ecd6;
+	padding-top: 15px;
+    padding-bottom: 5px;
+}
+.bd-highlight {
+	
+    background-color:#9fdf9f;
+	color: #228B22;
+	border-radius: 8px;
+}
+
+.cart-jumbotron{
+	
+	color: #990000;
+    background-color:#ffcccc;
+	padding-top: 15px;
+    padding-bottom: 5px;
+	width: 100%;
+	
+	
+}
+
+
+
+/* You can add global styles to this file, and also import other style files */
+
+#signup-status {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	color :black;
+}
+.table{
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+	 width:50%;
+}
+#title {
+	margin-left: 25%;
+	margin-top: 10%;
+	
+}
+#person-icon {
+	font-size: 25px;
+	color: #ffffff;
+	vertical-align : middle;
+}/*
+#container-login {
+	margin-bottom: 10%;
+	 max-width: 70%;
+}*/
+#movie-style {
+	color: black;
+	text-shadow: 5px 5px 10px black;
+}
+
+.container {
+	margin-top: 4%;
+}
+.container {
+ height: 100%;
+ max-width: 100%;
+ overflow-x: hidden;
+}
+
+.material-icons {
+	vertical-align : middle;
+}
+/* .navbar {
+	background-color: rgba(0, 0, 0,0.3 );
+	font-family: cursive;
+} */
+#button-color {
+	color: #9A114D;
+}
+/* img {
+	width: 210px;
+	height: 250px;
+} */
+body {
+	 font-family: Basic;
+ }
+ #body-image {
+	background-image: url("https://s3.envato.com/files/249745442/288.jpg");
+	background-size: 1900px; 
+
+} 
+#badge{
+	font-size: 14px;
+}
+#logo{
+
+	font-size: 70px;
+}
+#mainLogo{
+	text-align: center;
+	font-size: 50px;
+}
+#login{
+	text-align: center;
+	font-size: 40px;
+}
+.card {
+	width: 450px;
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+}
+
+.main {
+	margin-left: 300px; /* Same as the width of the sidenav */
+	
+	padding: 0px 10px;
+  }
+
+  .sidenav {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	/* background-color: #e6e6e6; */
+	overflow-x: hidden;
+	padding-top: 15px;
+	background: linear-gradient(to bottom, #ffffff 0%, #ccffff 100%);
+  }
+
+  .logout-icon{
+	  font-size: 17px;
+  }
+
+  .avatar{
+	  font-size: 100px;
+	  position: relative;
+	  left: 60px;
+  }
+  .add{
+	position: relative;
+	left: 70px;
+}
+.div-box{
+	position: relative;
+	top: 50px;
+	left: 50px;
+}
+.errorMessage {
+	color:  #990000;
+}
+.heading{
+	/*font-family: 'Open Sans', Arial;*/
+	/* font-family: 'Abril Fatface'; */
+	font-family: 'Anton';
+	/*font-family: 'Bangers';*/
+	font-size: 25px;
+	/* text-shadow:5px 5px 10px black; */
+	
+	
+}
+.value{
+	font-family: 'Amaranth';
+	font-size: 22px;
+}
+.navbar-toggler{
+	color: black;
+}
+
+  
+ 
